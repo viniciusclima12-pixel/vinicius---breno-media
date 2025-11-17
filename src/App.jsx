@@ -31,9 +31,9 @@ function App() {
         <input type="number" placeholder="Nota 6" value={n6} onChange={(e) => setN6(e.target.value)} />
       </div>
 
-      {media && (
+    {media && (
         <div className={styles.result}>
-          <h2>Sua média é: {media.toFixed(v)}</h2>
+          <h2>Sua média é: {media}</h2>
         </div>
       )}
     </div>
