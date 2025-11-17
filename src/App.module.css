@@ -1,0 +1,35 @@
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgb(14, 175, 224);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.inputs input {
+  padding: 12px;
+  border: 2px solid #5a5959;
+  border-radius: 10px;
+}
+h2 {
+  margin-top: 20px;
+  color: #000000;
+}
